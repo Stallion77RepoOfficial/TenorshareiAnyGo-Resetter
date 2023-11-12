@@ -1,0 +1,1 @@
+# TenorShareiAnyGo-Resetter
