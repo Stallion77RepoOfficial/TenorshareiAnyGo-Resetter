@@ -3,11 +3,14 @@
 read -p "Please Enter Your Username: " username
 
 files=(
+"/private/var/folders/hr/mdc7ghcs0zbb7dhwnywkjj5c0000gn/C/com.Tenorshare.ianygo2"
 "/Library/Logs/DiagnosticReports/iAnyGo_2023-11-12-150531_${username}-Pro.wakeups_resource.diag"
 "/Users/${username}/Library/Application Support/com.Tenorshare.ianygo2"
+"/Users/${username}/Library/Application State/com.Tenorshare.ianygo2.savedState"
 "/Users/${username}/Library/Application Support/iAnyGo"
 "/Users/${username}/Library/Caches/com.Tenorshare.ianygo2"
 "/Users/${username}/Library/Caches/iAnyGo"
+"/Users/${username}/Library/Caches/Tenorshare/iAnyGo"
 "/Users/${username}/Library/Caches/iAnyGo_data"
 "/Users/${username}/Library/HTTPStorages/com.Tenorshare.ianygo2"
 "/Users/${username}/Library/Saved Application State/com.Tenorshare.ianygo2.savedState"
