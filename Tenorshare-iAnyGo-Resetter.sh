@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Please Enter Your Root Username: " username
+read -p "Lütfen Root Kullanıcı Adınızı Girin: " username
 
 files=(
 "/private/var/folders/hr/mdc7ghcs0zbb7dhwnywkjj5c0000gn/C/com.Tenorshare.ianygo2"
@@ -16,7 +16,7 @@ files=(
 "/Users/${username}/Library/Saved Application State/com.Tenorshare.ianygo2.savedState"
 )
 
-echo -e "\033[0;32mProcessing...\033[0m"
+echo -e "\033[0;32mİşleniyor...\033[0m"
 
 for file in "${files[@]}"; do
     if [ -e "$file" ]; then
