@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Please Enter Your Username: " username
+read -p "Please Enter Your Root Username: " username
 
 files=(
 "/private/var/folders/hr/mdc7ghcs0zbb7dhwnywkjj5c0000gn/C/com.Tenorshare.ianygo2"
